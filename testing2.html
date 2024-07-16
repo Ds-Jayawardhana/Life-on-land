@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback form</h1>
+    <form>
+        <div>
+            <label for="name">Enter your name: *</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div>
+            <label for="email">Enter your email: *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div>
+            <p>Was this your first time visiting?</p>
+            <input type="radio" id="first-time-yes" name="first-time" value="yes">
+            <label for="first-time-yes">Yes</label>
+            <input type="radio" id="first-time-no" name="first-time" value="no">
+            <label for="first-time-no">No</label>
+        </div>
+        
+        <div>
+            <p>Was this website informative and easy to navigate through?</p>
+            <input type="radio" id="rating-1" name="rating" value="1">
+            <label for="rating-1">1</label>
+            <input type="radio" id="rating-2" name="rating" value="2">
+            <label for="rating-2">2</label>
+            <input type="radio" id="rating-3" name="rating" value="3">
+            <label for="rating-3">3</label>
+            <input type="radio" id="rating-4" name="rating" value="4">
+            <label for="rating-4">4</label>
+            <input type="radio" id="rating-5" name="rating" value="5">
+            <label for="rating-5">5</label>
+        </div>
+        
+        <div>
+            <label for="improvements">If 'No', suggest any improvements for the future:</label>
+            <textarea id="improvements" name="improvements"></textarea>
+        </div>
+        
+        <div>
+            <label for="satisfaction">How satisfied are you with our services?</label>
+            <input type="range" id="satisfaction" name="satisfaction" min="0" max="10">
+            <span>Not satisfied</span>
+            <span>Very satisfied</span>
+        </div>
+        
+        <div>
+            <p>Would you recommend our services?</p>
+            <input type="radio" id="recommend-yes" name="recommend" value="yes">
+            <label for="recommend-yes">Yes</label>
+            <input type="radio" id="recommend-no" name="recommend" value="no">
+            <label for="recommend-no">No</label>
+        </div>
+        
+        <div>
+            <p>Would you like to receive updates about the website and any offers?</p>
+            <input type="radio" id="updates-yes" name="updates" value="yes">
+            <label for="updates-yes">Yes</label>
+            <input type="radio" id="updates-no" name="updates" value="no">
+            <label for="updates-no">No</label>
+        </div>
+        
+        <div>
+            <label for="comments">Do you have any additional comments or requests?</label>
+            <textarea id="comments" name="comments"></textarea>
+        </div>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
