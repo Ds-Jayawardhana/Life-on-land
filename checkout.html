@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <!-- ... (header content remains the same) ... -->
+    </section>
+
+    <section id="checkout" class="section-p1">
+        <h2>Checkout</h2>
+        <div class="checkout-container">
+            <div class="payment-details">
+                <h3>Payment Details</h3>
+                <form id="payment-form">
+                    <input type="text" id="card-number" placeholder="Card Number" required>
+                    <input type="text" id="cardholder-name" placeholder="Cardholder Name" required>
+                    <input type="text" id="expiry-date" placeholder="Expiry Date (MM/YY)" required>
+                    <input type="text" id="cvv" placeholder="CVV" required>
+                </form>
+            </div>
+            
+            <div class="billing-address">
+                <h3>Billing Address</h3>
+                <form id="billing-form">
+                    <input type="text" id="address-line1" placeholder="Address Line 1" required>
+                    <input type="text" id="address-line2" placeholder="Address Line 2">
+                    <input type="text" id="city" placeholder="Town/City" required>
+                    <input type="text" id="state" placeholder="State/County" required>
+                    <input type="text" id="postcode" placeholder="Postcode/Zip code" required>
+                    <select id="country" required>
+                        <option value="">Select Country</option>
+                        <!-- Add country options here -->
+                    </select>
+                </form>
+            </div>
+            
+            <div class="contact-details">
+                <h3>Contact Details</h3>
+                <form id="contact-form">
+                    <input type="text" id="first-name" placeholder="First Name" required>
+                    <input type="text" id="surname" placeholder="Surname" required>
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </form>
+            </div>
+            
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <!-- Add order summary details here -->
+            </div>
+        </div>
+        
+        <button id="complete-order">Complete Order</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
