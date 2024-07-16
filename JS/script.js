@@ -78,6 +78,7 @@ function saveCart() {
 }
 
 function loadCart() {
+    localStorage.removeItem('cart');
     const savedCart = localStorage.getItem('cart');
     if (savedCart) {
         cart = JSON.parse(savedCart);
