@@ -64,29 +64,29 @@ function getProductDetails(productId) {
             name: "Bamboo Toothbrushes",
             description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
             price: "RS.1000",
-            mainImage: "img/f1.jpg",
-            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            mainImage: "img/shop/Babmboo Brushes/1.png",
+            gallery: ["img/shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
         },
         '2': {
             name: "Bird House",
-            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
-            price: "RS.1000",
-            mainImage: "img/f1.jpg",
-            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            description: "Charming wooden bird houses. Cozy shelter for local birds. Perfect for gardens and backyards. Enhances outdoor spaces while supporting wildlife.",
+            price: "RS.2000",
+            mainImage: "img/shop/Bird House/bird3.jpg",
+            gallery: ["img/shop/Bird House/bird2.jpg", "img/shop/Bird House/bird4.jpg", "img/shop/Bird House/bird5.jpg", "img/shop/Bird House/bird1.jpg"]
         },
         '3': {
-            name: "Bird House",
-            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
-            price: "RS.1000",
-            mainImage: "img/f1.jpg",
-            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            name: "Bonsai",
+            description: "Miniature bonsai tree. Living art for your home or office. Low-maintenance beauty. Brings tranquility and nature indoors.",
+            price: "RS.1500",
+            mainImage: "img/shop/bonsai/13.png",
+            gallery: ["img/shop/bonsai/12.png", "img/shop/bonsai/10.png", "img/shop/bonsai/9.png", "img/shop/bonsai/11.png"]
         },
         '4': {
-            name: "Bird House",
-            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            name: "Flowers",
+            description: "Vibrant, fresh-cut flowers. Variety of colors and species. Perfect for gifts, decor, or self-indulgence. Brighten any space with natural beauty.",
             price: "RS.1000",
-            mainImage: "img/f1.jpg",
-            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            mainImage: "img/shop/flowers2/16.png",
+            gallery: ["img/shop/flowers2/17.png", "img/shop/flowers2/18.png", "img/shop/flowers2/20.png"]
         },'5': {
             name: "Bird House",
             description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
