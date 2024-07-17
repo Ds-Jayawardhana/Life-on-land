@@ -3,7 +3,7 @@
     border-radius: 50px;
     background-color: white;
     margin: 50px 0 0 ;
-    height: 1320px;
+    height: 1380px;
     width: 800px;
     justify-content: center;
     margin-bottom: 30px;
@@ -223,35 +223,16 @@ font-weight: 400;
 .gap-bet{
     margin-left:60px  ;
 }
-
-.form-group label,
-.form-group p {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-    width: 100%;
-    max-width: 400px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.group-option {
-    display: flex;
+.preview-content,.centering{
+    display: flexbox;
     justify-content: center;
-    gap: 20px;
+    text-align: center;
+    align-items: center;
 }
-
-.rating-scale {
-    display: flex;
+.txtarea-grp{
+    display: flexbox;
     justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-}
+    text-align: center;
+    align-items: center;
 
-.form-buttons {
-    margin-top: 20px;}
+}
