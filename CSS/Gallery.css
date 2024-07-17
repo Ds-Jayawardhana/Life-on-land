@@ -193,6 +193,7 @@ a.active {
     .footer-logo {
       grid-column: span 2;
     }
+    
   }
   
   @media (max-width: 480px) {

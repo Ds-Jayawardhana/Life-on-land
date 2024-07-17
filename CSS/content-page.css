@@ -213,6 +213,12 @@ a.active {
     margin:40px 60px 40px 60px;
 
 }
+.author{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+}
   @media (max-width: 1024px) {
     .footer-cont-main {
       grid-template-columns: repeat(3, 1fr);
