@@ -53,12 +53,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     document.querySelector('.feedback-form').addEventListener('submit', function(event) {
+       
+        let isvalids=true;
+
         if (!checkemailvalidity(email.value)) {
             event.preventDefault();
             alert('Please enter a valid email address');
+            isvalids=false;
         }
         if (!checkradioinputs()) {
             event.preventDefault();
+            isvalids=false;
+
+        }
+        if(isvalids){
+            alert('Thank you for your FeedBack')
         }
     });
     
