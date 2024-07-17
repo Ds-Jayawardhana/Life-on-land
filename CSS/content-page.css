@@ -253,10 +253,3 @@ a.active {
       grid-column: span 1;
     }
   }
-nav{
-    padding: 20px;
-    text-align: center;
-}  
-a{
-    padding: 20px;
-}
