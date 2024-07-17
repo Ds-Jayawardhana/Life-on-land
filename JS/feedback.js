@@ -59,6 +59,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         if (!checkradioinputs()) {
             event.preventDefault();
+
+        }
+        if(!checkemailvalidity(email.value &&!checkradioinputs() ){
+            alert('Thank you for your Feed Back')
         }
     });
     
