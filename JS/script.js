@@ -88,17 +88,17 @@ function getProductDetails(productId) {
             mainImage: "img/f1.jpg",
             gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
         },'5': {
-            name: "Bird House",
-            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
-            price: "RS.1000",
+            name: "Indoor Plants",
+            description: "A collection of large indoor plants to enhance your living space. We offer eco-friendly options that purify the air and add a touch of nature to your home.",
+            price: "RS.5000",
             mainImage: "img/f1.jpg",
-            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            gallery: ["img/shop/Plants big/1.png", "img/shop/Plants big/2.png", "img/shop/Plants big/3.png", "img/shop/Plants big/5.png"]
         },'6': {
-            name: "Bird House",
-            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            name: "Reusable Bags",
+            description: "Durable and eco-friendly reusable bags. Perfect for shopping and everyday use. Made from sustainable materials, these bags help reduce plastic waste and promote a greener lifestyle",
             price: "RS.1000",
             mainImage: "img/f1.jpg",
-            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            gallery: ["img/shop/Reusable Bags/7.png", "img/shop/Reusable Bags/9.png", "img/shop/Reusable Bags/11.png", "img/shop/Reusable Bags/12.png"]
         },
         '7': {
             name: "Bird House",
