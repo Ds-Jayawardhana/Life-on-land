@@ -125,7 +125,7 @@ function saveCart() {
 }
 
 function loadCart() {
-    localStorage.removeItem('cart');
+  
     const savedCart = localStorage.getItem('cart');
     if (savedCart) {
         cart = JSON.parse(savedCart);
@@ -135,6 +135,7 @@ function loadCart() {
 }
 
 function displayCart() {
+    localStorage.removeItem('cart');
     const cartBody = document.getElementById('cart-body');
     const cartSubtotal = document.getElementById('cart-subtotal');
     const cartTotal = document.getElementById('cart-total');
