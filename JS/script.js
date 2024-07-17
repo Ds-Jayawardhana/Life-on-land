@@ -61,11 +61,58 @@ function openProductModal(productId) {
 function getProductDetails(productId) {
     const products = {
         '1': {
-            name: "Vintage Rucksack",
-            description: "Vintage rucksack style messenger bag with laptop and extra compartment backpack with faux leather compartment for your daily entry with drawstring.",
-            price: "RS.1500",
+            name: "Bamboo Toothbrushes",
+            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            price: "RS.1000",
             mainImage: "img/f1.jpg",
-            gallery: ["img/f2.jpg", "img/f3.jpg", "img/f4.jpg", "img/f5.jpg"]
+            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+        },
+        '2': {
+            name: "Bird House",
+            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            price: "RS.1000",
+            mainImage: "img/f1.jpg",
+            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+        },
+        '3': {
+            name: "Bird House",
+            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            price: "RS.1000",
+            mainImage: "img/f1.jpg",
+            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+        },
+        '4': {
+            name: "Bird House",
+            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            price: "RS.1000",
+            mainImage: "img/f1.jpg",
+            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+        },'5': {
+            name: "Bird House",
+            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            price: "RS.1000",
+            mainImage: "img/f1.jpg",
+            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+        },'6': {
+            name: "Bird House",
+            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            price: "RS.1000",
+            mainImage: "img/f1.jpg",
+            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+        },
+        '7': {
+            name: "Bird House",
+            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            price: "RS.1000",
+            mainImage: "img/f1.jpg",
+            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+        },
+        '8': {
+            name: "Bird House",
+            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            price: "RS.1000",
+            mainImage: "img/f1.jpg",
+            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
         },
         // Add more products as needed
     };
