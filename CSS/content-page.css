@@ -220,11 +220,20 @@ a.active {
   font-size: 15px;
 }
 .unordered-con{
-  text-decoration:none;
+  
   list-style: none;
   text-align: center;
 
   
+}
+ 
+.unordered-con li a{
+  text-decoration: none;
+  color: #147431;
+}
+.unordered-con li a:hover{
+  text-decoration: none;
+  color: #2dc653;
 }
 .back-to-top{
   display: flex;
