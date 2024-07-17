@@ -20,6 +20,7 @@ body {
     background-color: #ededed;
 }
 
+
 .head-img {
     float: left;
     padding-left: 50px;
@@ -206,18 +207,17 @@ a.active {
     margin-bottom: 10px;
     text-align: center;
     padding:15px;
+    width: 920px;
   }
-  title{
-    
-  }
+  
   
   .container_2 .gallery{
     columns:3 250px;
-    gap:15px;
+    gap:10px;
   }
   
   .container_2 .gallery img{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border-radius: 5px;
     width:100%;
   }
