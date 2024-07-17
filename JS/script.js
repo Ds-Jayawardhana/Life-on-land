@@ -86,33 +86,33 @@ function getProductDetails(productId) {
             description: "Vibrant, fresh-cut flowers. Variety of colors and species. Perfect for gifts, decor, or self-indulgence. Brighten any space with natural beauty.",
             price: "RS.1000",
             mainImage: "img/shop/flowers2/16.png",
-            gallery: ["img/shop/flowers2/17.png", "img/shop/flowers2/18.png", "img/shop/flowers2/20.png"]
+            gallery: ["img/shop/flowers2/17.png", "img/shop/flowers2/18.png", "img/shop/flowers2/20.png","img/shop/flowers2/21.png"]
         },'5': {
             name: "Indoor Plants",
             description: "A collection of large indoor plants to enhance your living space. We offer eco-friendly options that purify the air and add a touch of nature to your home.",
             price: "RS.5000",
-            mainImage: "img/f1.jpg",
+            mainImage: "img/shop/Plants big/main.png",
             gallery: ["img/shop/Plants big/1.png", "img/shop/Plants big/2.png", "img/shop/Plants big/3.png", "img/shop/Plants big/5.png"]
         },'6': {
             name: "Reusable Bags",
             description: "Durable and eco-friendly reusable bags. Perfect for shopping and everyday use. Made from sustainable materials, these bags help reduce plastic waste and promote a greener lifestyle",
             price: "RS.1000",
-            mainImage: "img/f1.jpg",
+            mainImage: "img/shop/Reusable Bags/7.png",
             gallery: ["img/shop/Reusable Bags/7.png", "img/shop/Reusable Bags/9.png", "img/shop/Reusable Bags/11.png", "img/shop/Reusable Bags/12.png"]
         },
         '7': {
-            name: "Bird House",
-            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            name: "Hoodies",
+            description: "A collection for dreamers.soar to new heights.We were all meant for Greatness",
             price: "RS.1000",
-            mainImage: "img/f1.jpg",
-            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            mainImage: "Img/shop/shirt/shirt1.png",
+            gallery: ["Img/shop/shirt/shirt1.png", "Img/shop/shirt/shirt2.png", "Img/shop/shirt/shirt3.png", "Img/shop/shirt/shirt4.png"]
         },
         '8': {
-            name: "Bird House",
-            description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
+            name: "Wooden crafts",
+            description: "New Animal Carving Handcraft Wall Hanging Sculpture Wood Raccoon Bear Deer Hand Painted Decoration for Home Living Room Gift",
             price: "RS.1000",
-            mainImage: "img/f1.jpg",
-            gallery: ["img//shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            mainImage: "img/shop/wooden arts(handcrafts)/11.png",
+            gallery: ["img/shop/wooden arts(handcrafts)/2.png", "img/shop/wooden arts(handcrafts)/14.png", "img/shop/wooden arts(handcrafts)/15.png", "img/shop/wooden arts(handcrafts)/11.png"]
         },
         // Add more products as needed
     };
