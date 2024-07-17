@@ -219,6 +219,17 @@ a.active {
   font-weight: 600;
   font-size: 15px;
 }
+.unordered-con{
+  text-decoration:none;
+  list-style: none;
+  text-align: center;
+
+  
+}
+.back-to-top{
+  display: flex;
+  justify-content: center;
+}
   @media (max-width: 1024px) {
     .footer-cont-main {
       grid-template-columns: repeat(3, 1fr);
