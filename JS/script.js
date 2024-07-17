@@ -64,7 +64,7 @@ function getProductDetails(productId) {
             name: "Bamboo Toothbrushes",
             description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
             price: "RS.1000",
-            mainImage: "img/shop/Babmboo Brushes/1.png",
+            mainImage: "img/shop/Babmboo Brushes/5.png",
             gallery: ["img/shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
         },
         '2': {
