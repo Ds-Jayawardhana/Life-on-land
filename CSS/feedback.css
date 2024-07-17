@@ -223,3 +223,35 @@ font-weight: 400;
 .gap-bet{
     margin-left:60px  ;
 }
+
+.form-group label,
+.form-group p {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.group-option {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rating-scale {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-buttons {
+    margin-top: 20px;
