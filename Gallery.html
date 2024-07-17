@@ -11,13 +11,14 @@
 <!-------Main Header------------>
 <title>(Gallery) Life On Land(Group I5)</title>
 </head>
-<body>
+<body id="body">
     <section class="hero">
     <div class="container_1">
         
-    <div class="navbar" id="top-nav">
-        <img class="head-img" src="/Img/Common/navimg.png" alt="Header Image">
-        <a href="index.html">Home</a>
+
+    <div class="navbar" id="nav">
+        <img class="head-img" src="/Img/Common/navimg.png" alt="Header Image" />
+        <a href="common.html">Home</a>
         <a href="gallery.html" class="active">Gallery</a>
         <a href="shop.html">Shop</a>
         <a href="profile.html">Profile</a>
@@ -33,15 +34,14 @@
 <span>Themes</span> <br><br>
 
 <div >
-    <button id="lightbutton" onclick="" class="theme-btn" value="light" >Light</button><br><br>
-    <button id="darkbutton" onclick="" class="theme-btn" value="dark">Dark </button><br><br>
-    <button id="defaultbutton"onclick="" class="theme-btn" value="default">Default </button><br><br>
-    <button id="custombutton"onclick="" class="theme-btn" value="custom">Custom </button><br><br>
+    <button id="lightButton"  class="theme-btn" value="light" >Light</button><br><br>
+    <button id="darkButton"  class="theme-btn" value="dark">Dark </button><br><br>
+    <button id="customButton" class="theme-btn" value="custom">Custom </button><br><br>
 </div>
     <div id ="fontFam">
     <span style="color:#7777;">Font Types</span><br>
-    <select  id="fontselect">
-        <option value="Arial">Arial</option>
+    <select id="fontSelect">
+        <option value="Poppins">Poppins</option>
         <option value="Verdana">Verdana</option>
         <option value="Times New Roman">Times New Roman</option>
     </select>
@@ -51,38 +51,38 @@
 </div>
 
 <div class = container_2>
-    <h2 class = "title">Gallery</h2>
+    <h2 class = "title" id="title">Gallery</h2>
     <div class="gallery">
         <div class="box"> 
-            <img src="/Img/Gallery/img-1.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-1.jpg" alt="" data-text="Cillum et tempor pariatur sint est nostrud ea esse. Aute eiusmod aute in pariatur voluptate minim. Minim velit esse exercitation esse et laborum dolore ad. Excepteur ipsum veniam sit dolore minim enim. Cupidatat eu non velit dolor occaecat id ex officia sint aute velit Lorem duis.">
         
         </div>
         
        <div class="box">
-        <img src="/Img/Gallery/img-2.jpg" alt="">
+        <img class="modalImage" src="/Img/Gallery/img-2.jpg" alt="">
     </div> 
         <div class="box">
-            <img src="/Img/Gallery/img-3.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-3.jpg" alt="">
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-4.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-4.jpg" alt="">
         </div>
        <div class="box">
-        <img src="/Img/Gallery/img-5.jpg" alt="">
+        <img class="modalImage" src="/Img/Gallery/img-5.jpg" alt="">
     </div> 
         <div class="box">
-            <img src="/Img/Gallery/img-6.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-6.jpg" alt="">
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-7.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-7.jpg" alt="">
         
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-8.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-8.jpg" alt="">
         
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-9.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-9.jpg" alt="">
         
         </div>
 
@@ -90,7 +90,14 @@
 </div>
 </div>
 
-<br><br><br><br><br><br>
+
+<div id="ModalContainer" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="imageContainer">
+    <div id="caption"></div>
+  </div>
+
+
 
 <!-------Main Footer------------>
 <footer class="section footer">
@@ -139,7 +146,7 @@
             <li><a href="content04.html">Content 04</a></li>
           </ul>
         </div>
-      </div>
+        </div> 
       <div class="footer-cont">
         <div class="our-team">
           <h4>Student Pages</h4>
@@ -151,6 +158,7 @@
           </ul>
         </div>
       </div>
+
     </div>
     <div class="section footer-2">
       <div class="copyright">
@@ -161,5 +169,10 @@
       </div>
     </div>
   </footer>
+<script src="/JS/themeChange.js"></script>
+<script src="/JS/fontChange.js"></script>
+
+<script src="JS/GalleryView.js" type="module"></script>
+
 </body>
 </html>

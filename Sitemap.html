@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+
 <link rel="icon" type="image/x-icon" href="Img/Common/favicon.ico"> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +18,12 @@
     <div class="container_1">
     <div class="navbar" id="top-nav">
         <img class="head-img" src="/Img/Common/navimg.png" alt="Header Image">
+
         <a href="index.html" >Home</a>
         <a href="gallery.html">Gallery</a>
         <a href="shop.html">Shop</a>
         <a href="profile.html">Profile</a>
-        <a href="sitemap.html"class="active">Sitemap</a>
+        <a href="sitemap.html" class="active">Sitemap</a>
         <a href="team.html">Team</a>
         <a href="feedback.html">Feedback</a>
     </div>
@@ -33,36 +35,37 @@
         <svg class="svg" width="1900" height="700">
             <!--svgCode-->
             <!-- Main -->
-            <a href="index.html">
+            <a href="index.html" class="link" data-image="/Img/Contents/content2img.jpeg" data-name="Page Name">
                 <circle class="circle" cx="600" cy="158" r="40" stroke="#64a36f" stroke-width="3"/>
                 <text class="word" x="600" y="160" text-anchor="middle" dominant-baseline="middle">Home</text>
-
+               
             </a>
-            <a href="Gallery.html">
+            <a href="Gallery.html" class="link" data-image="/Img/Contents/content2img.jpeg" data-name="Page Name">
                 <circle class="circle" cx="60" cy="373" r="40" stroke="#64a36f" stroke-width="3"/>
                 <text class="word" x="60" y="370" text-anchor="middle" dominant-baseline="middle">Gallery</text>
             </a>
-            <a href="feedback.html">
+            <a href="feedback.html" class="link" data-image="/Img/Contents/content2img.jpeg" data-name="Page Name">
                 <circle class="circle" cx="220" cy="373" r="40" stroke="#64a36f" stroke-width="3"/>
                 <text class="word" x="220   " y="370" text-anchor="middle" dominant-baseline="middle">Feedback</text>
             </a>
-            <a href="shop.html">
+            <a href="shop.html" class="link" data-image="/Img/Contents/content2img.jpeg" data-name="Page Name">
                 <circle class="circle" cx="380" cy="373" r="40"stroke="#64a36f" stroke-width="3" />
                 <text class="word" x="380" y="370" text-anchor="middle" dominant-baseline="middle">Shop</text>
             </a>
-            <a href="profile.html">
+            <a href="profile.html" class="link" data-image="/Img/Contents/content2img.jpeg" data-name="Page Name">
                 <circle class="circle" cx="525" cy="373" r="40" stroke="#64a36f" stroke-width="3"/>
                 <text class="word" x="525 " y="370" text-anchor="middle" dominant-baseline="middle">Profile</text>
             </a>
-            <a href="Sitemap.html">
+            <a href="Sitemap.html" class="link" data-image="/Img/Contents/content2img.jpeg" data-name="Page Name">
                 <circle class="circle" cx="670" cy="373" r="40" stroke="#64a36f" stroke-width="3"/>
                 <text class="word" x="670 " y="370" text-anchor="middle" dominant-baseline="middle">Sitemap</text>
             </a>
-            <a href="content.html">
+            <a href="content.html" class="link" data-image="/Img/Contents/content2img.jpeg" data-name="Page Name">
                 <circle class="circle" cx="820" cy="373" r="40" stroke="#64a36f" stroke-width="3"/>
                 <text class="word" x="820" y="370" text-anchor="middle" dominant-baseline="middle">Content</text>
             </a>
-            <a href="team.html">
+            <a href="team.html" class="link" data-image="/Img/Contents/content2img.jpeg" data-name="Page Name">
+
                 <circle class="circle" cx="980" cy="373" r="40" stroke="#64a36f" stroke-width="3"/>
                 <text class="word" x="980" y="370" text-anchor="middle" dominant-baseline="middle">Team</text>
             </a>
@@ -146,11 +149,12 @@
 
             <!-- Sub lines -->
              <!-- Shop -->
-            <line x1="380" y1="415" x2="380" y2="577" style="stroke:#ffffff;stroke-width: 4;"/>
+            <line x1="380" y1="415" x2="380" y2="635" style="stroke:#ffffff;stroke-width: 4;"/>
             <line x1="380" y1="455" x2="415" y2="455" style="stroke:#ffffff;stroke-width: 4;"/>
             <line x1="380" y1="515" x2="415" y2="515" style="stroke:#ffffff;stroke-width: 4;"/>
             <line x1="380" y1="575" x2="415" y2="575" style="stroke:#ffffff;stroke-width: 4;"/>
-            
+            <line x1="380" y1="635" x2="415" y2="635" style="stroke:#ffffff;stroke-width: 4;"/>
+
             <!-- Content -->
             <line x1="820" y1="415" x2="820" y2="635" style="stroke:#ffffff;stroke-width: 4;"/>
             <line x1="820" y1="455" x2="855" y2="455" style="stroke:#ffffff;stroke-width: 4;"/>
@@ -167,7 +171,9 @@
 
         </svg>
     </div>
-<br><br>
+
+    <div id="tooltip" class="tooltip"></div>
+
 <!-------Main Footer------------>
 <footer class="section footer">
     <div class="footer-cont-main">
@@ -215,7 +221,7 @@
             <li><a href="content04.html">Content 04</a></li>
           </ul>
         </div>
-      </div>
+        </div> 
       <div class="footer-cont">
         <div class="our-team">
           <h4>Student Pages</h4>
@@ -227,6 +233,7 @@
           </ul>
         </div>
       </div>
+
     </div>
     <div class="section footer-2">
       <div class="copyright">
@@ -237,5 +244,7 @@
       </div>
     </div>
   </footer>
+<script src="/JS/sitemap.js" type="module"></script>
+
 </body>
 </html>
