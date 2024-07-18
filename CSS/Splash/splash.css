@@ -16,6 +16,11 @@ h2{
 p{
   color: #ffffff;
 }
+.circle-tst{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .circle-loader{
   
     width: 50px;
