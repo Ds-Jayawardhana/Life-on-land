@@ -32,18 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     formpreview.addEventListener('click', updatePreview);
 
-    function checkeasy(){
-        var easyx=false;
-        var y=document.getElementsByName('informative');
-        for(var t=0;t<y.length;t++){
-            if(y[t].checked){
-                if(y[t].value==='no'){
-                    preventDefault()
-                }
 
-            }
-        }
-    }
 
     function checkradioinputs() {
         var validityx = false;
