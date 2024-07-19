@@ -61,6 +61,7 @@ const skipBtn = document.getElementById('skip-btn');
 const progress = document.getElementById('progress');
 const progressText = document.getElementById('progress-text');
 const outputContent = document.getElementById('output-content');
+const backBtn = document.getElementById('back-btn');
 
 skipBtn.addEventListener('click', () => {
     const currentQuestion = steps[currentStep].prompts[currentPrompt];
@@ -97,6 +98,7 @@ function updatePrompt() {
             }
             nextBtn.textContent = 'Next';
             nextBtn.style.display = 'inline-block';
+            backBtn.style.display = currentStep > 0 || currentPrompt > 0 ? 'inline-block' : 'none';
 
             // Display suggestions if available
             if (currentQuestion.suggestions) {
@@ -147,6 +149,7 @@ function displayStepSummary() {
     promptText.textContent = 'Review your answers for this step:';
     userInput.style.display = 'none';
     skipBtn.style.display = 'none';
+    backBtn.style.display = 'inline-block';
 
     if (currentStep === steps.length - 1) {
         nextBtn.textContent = 'Submit';
@@ -174,6 +177,7 @@ function displayFinalProfile() {
     userInput.style.display = 'none';
     nextBtn.style.display = 'none';
     skipBtn.style.display = 'none';
+    backBtn.style.display = 'none';
 
     updateOutput();
 }
@@ -183,6 +187,20 @@ function handleSubmit() {
     
     displayFinalProfile();
 }
+
+backBtn.addEventListener('click', () => {
+    if (currentPrompt > 0) {
+        currentPrompt--;
+    } else if (currentStep > 0) {
+        currentStep--;
+        currentPrompt = steps[currentStep].prompts.length - 1;
+    }
+    updatePrompt();
+    
+
+    const currentQuestion = steps[currentStep].prompts[currentPrompt];
+    userInput.value = userResponses[currentQuestion.question] || '';
+});
 
 nextBtn.addEventListener('click', () => {
     if (currentPrompt < steps[currentStep].prompts.length) {
@@ -238,7 +256,9 @@ nextBtn.addEventListener('click', () => {
         if (inputValue !== '') {
             userResponses[currentQuestion.question] = inputValue;
         }else {
-            userResponses[currentQuestion.question] = 'Skipped';
+            if (!currentQuestion.required) {
+                userResponses[currentQuestion.question] = 'Skipped';
+            }
         }
         currentPrompt++;
     } else {

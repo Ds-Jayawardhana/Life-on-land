@@ -64,15 +64,15 @@ function getProductDetails(productId) {
             name: "Bamboo Toothbrushes",
             description: "Eco-friendly bamboo toothbrush. Biodegradable handle, soft bristles. Sustainable alternative to plastic. Promotes oral health and environmental consciousness.",
             price: "RS.1000",
-            mainImage: "img/shop/Babmboo Brushes/5.png",
-            gallery: ["img/shop/Babmboo Brushes/2.png", "img/shop/Babmboo Brushes/3.png", "img/shop/Babmboo Brushes/4.png", "img/shop/Babmboo Brushes/5.png"]
+            mainImage: "img/shop/Babmboo_Brushes/0.jpg",
+            gallery: ["img/shop/Babmboo_Brushes/0.jpg", "img/shop/Babmboo_Brushes/3.png", "img/shop/Babmboo_Brushes/4.png", "img/shop/Babmboo_Brushes/5.png"]
         },
         '2': {
             name: "Bird House",
             description: "Charming wooden bird houses. Cozy shelter for local birds. Perfect for gardens and backyards. Enhances outdoor spaces while supporting wildlife.",
             price: "RS.2000",
-            mainImage: "img/shop/Bird House/bird3.jpg",
-            gallery: ["img/shop/Bird House/bird2.jpg", "img/shop/Bird House/bird4.jpg", "img/shop/Bird House/bird5.jpg", "img/shop/Bird House/bird1.jpg"]
+            mainImage: "img/shop/Bird_House/bird3.jpg",
+            gallery: ["img/shop/Bird_House/bird2.jpg", "img/shop/Bird_House/bird4.jpg", "img/shop/Bird_House/bird5.jpg", "img/shop/Bird_House/bird1.jpg"]
         },
         '3': {
             name: "Bonsai",
@@ -91,14 +91,14 @@ function getProductDetails(productId) {
             name: "Indoor Plants",
             description: "A collection of large indoor plants to enhance your living space. We offer eco-friendly options that purify the air and add a touch of nature to your home.",
             price: "RS.5000",
-            mainImage: "img/shop/Plants big/main.png",
-            gallery: ["img/shop/Plants big/1.png", "img/shop/Plants big/2.png", "img/shop/Plants big/3.png", "img/shop/Plants big/5.png"]
+            mainImage: "img/shop/Plants_big/3.png",
+            gallery: ["img/shop/Plants_big/3.png", "img/shop/Plants_big/2.png", "img/shop/Plants_big/1.png", "img/shop/Plants_big/5.png"]
         },'6': {
             name: "Reusable Bags",
             description: "Durable and eco-friendly reusable bags. Perfect for shopping and everyday use. Made from sustainable materials, these bags help reduce plastic waste and promote a greener lifestyle",
             price: "RS.1000",
-            mainImage: "img/shop/Reusable Bags/7.png",
-            gallery: ["img/shop/Reusable Bags/7.png", "img/shop/Reusable Bags/9.png", "img/shop/Reusable Bags/11.png", "img/shop/Reusable Bags/12.png"]
+            mainImage: "img/shop/Reusable_Bags/7.png",
+            gallery: ["img/shop/Reusable_Bags/7.png", "img/shop/Reusable_Bags/9.png", "img/shop/Reusable_Bags/11.png", "img/shop/Reusable_Bags/12.png"]
         },
         '7': {
             name: "Hoodies",
@@ -111,10 +111,10 @@ function getProductDetails(productId) {
             name: "Wooden crafts",
             description: "New Animal Carving Handcraft Wall Hanging Sculpture Wood Raccoon Bear Deer Hand Painted Decoration for Home Living Room Gift",
             price: "RS.1000",
-            mainImage: "img/shop/wooden arts(handcrafts)/11.png",
-            gallery: ["img/shop/wooden arts(handcrafts)/2.png", "img/shop/wooden arts(handcrafts)/14.png", "img/shop/wooden arts(handcrafts)/15.png", "img/shop/wooden arts(handcrafts)/11.png"]
+            mainImage: "img/shop/wooden_arts(handcrafts)/11.png",
+            gallery: ["img/shop/wooden_arts(handcrafts)/2.png", "img/shop/wooden_arts(handcrafts)/14.png", "img/shop/wooden_arts(handcrafts)/15.png", "img/shop/wooden_arts(handcrafts)/11.png"]
         },
-        // Add more products as needed
+        
     };
     return products[productId] || {};
 }

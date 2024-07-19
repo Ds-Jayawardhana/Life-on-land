@@ -32,6 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     formpreview.addEventListener('click', updatePreview);
 
+
+
     function checkradioinputs() {
         var validityx = false;
         var x = document.getElementsByName('satisfaction');

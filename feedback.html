@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">    
@@ -11,11 +11,11 @@
 <link rel="stylesheet" href="css/Common/common.css">
 <link rel="stylesheet" href="css/feedback.css">
 <script src="JS/feedback.js"></script>
-<!-------Main Header------------>
+<!--Main Header-->
 <title>15. Life On Land(Group I5)</title>
 </head>
 <body>
-    <section class="hero">
+    <div class="hero">
     <div class="container_1">
     <div class="navbar" id="top-nav">
         <img class="head-img" src="/Img/Common/navimg.png" alt="Header Image">
@@ -29,7 +29,7 @@
     </div>
     
 </div>
-</section>
+    </div>
 
 
 
@@ -38,11 +38,11 @@
 <div class="form-container">
     <form action="mailto:disandu.20230469@iit.ac.lk" id=feedbackform class="feedback-form" method="post">
     <br>
-    <h1 class="feed-topic">Website Client FeedBack Form</h1>
+    <h2 class="feed-topic">Website Client FeedBack Form</h2>
     <h5 class="feed-descript">We Would Love To Here From You! Please Take Us A <br>
         Moment To Let Us Know About Your Experience</h5>
         <hr>
-        <div class="name"><label for="name"><b class="req">*</b>Enter Your Name <span class="gap-bet"></span>:- </label>
+        <div class="name"><label for="nameinput"><b class="req">*</b>Enter Your Name <span class="gap-bet"></span>:- </label>
         <input type="text" id="nameinput" placeholder="John Doe" required>
         <br>
         <div class="mail"><label for="email"><b class="req">*</b>Enter Your Email Address :-</label>
@@ -50,7 +50,7 @@
         <br></div>
         </div>
 
-        <center><label for="visit"><b class="req">*</b>Was this your first time visiting ?</label></center>
+        <div class="centering"><label for="yes1">Was this your first time visiting ?</label></div>
         <div class="group-option">
              <input type="radio" name="visiting" id="yes1" value="Yes" >
              <label for="yes1">Yes</label>
@@ -61,7 +61,7 @@
        
             
         
-        <center><label for="informativeoption"><b class="req">*</b>Was this website informative and easy to navigate through</label></center>
+        <div class="centering"><label for="yes2">Was this website informative and easy to navigate through</label></div>
         <div class="group-option">
              <input type="radio" name="informative" id="yes2" value="Yes" required>
              <label for="yes2">Yes</label>
@@ -72,10 +72,10 @@
 
 
 
-     <center><label for="suggestion">If "NO" ,Suggest any improvements for the future</label><br>
-        <div class="txtarea-grp"></div>
-        <textarea name="suggestion" id="Suggest" rows="6" cols="70" class="txtara"></textarea><br>
-        <label for="satisfied"><b class="req">*</b>How satisfied with our services?</label><br></center>
+     <div class="centering"><label for="Suggest">If "NO" ,Suggest any improvements for the future</label></div><br>
+        <div class="txtarea-grp"><textarea name="suggestion" id="Suggest" rows="6" cols="70" class="txtara"></textarea><br></div>
+        
+      <div class="centering"><label for="rating1"><b class="req">*</b>How satisfied with our services?</label></div><br>
         
 
 
@@ -109,7 +109,7 @@
             </div><br>
 
 
-            <center><label for="irecommendation" class="reco"><b>*</b>Would you recommend our services ?</label></center>
+            <div class="centering"><label for="yes3"><b>*</b>Would you recommend our services ?</label></div>
         <div class="group-option">
              <input type="radio" name="recommendation" id="yes3" value="Yes" >
              <label for="yes3">Yes</label>
@@ -121,19 +121,21 @@
 
 
         <div class="txtarea-grp">
-       <center> <label for="additionq">Do you have additional Questions or Request ?</label><br>
-        <textarea name="addition" id="additionq" rows="8"></textarea><br></center>
+       <div class="centering"><label for="additionq">Do you have additional Questions or Request ?</label></div><br>
+        <textarea name="addition" id="additionq" rows="8"></textarea><br>
         <div class="form-buttons">
-            <center><input type="button" id="formpreview" value="Preview">
-            <input type="submit" id="formsubmit" action="submit" ></center>
+            <input type="button" id="formpreview" value="Preview">
+            <input type="submit" id="formsubmit"  >
             
         </div>
         </div>
         
+        </form>
         
-</div>
-</form>
-</section>
+
+
+      </div>
+      </section>
 
 <!--Preview Section-->
 <div class="pre-box-container">
@@ -143,21 +145,21 @@
         <hr>
     </div>
     <div class="preview-content" id="prviewcont">
-      <center><p id="previewName">Click Preview Button See the Input Details
+      <p id="previewName">Click Preview Button See the Input Details
         <p id="previewEmail"></p>
         <p id="previewVisit"></p>
         <p id="previewInformative"></p>
         <p id="previewSuggestion"></p>
         <p id="previewSatisfaction"></p>
         <p id="previewRecommendation"></p>
-        <p id="previewAdditional"></p></b></div>
-        </div></center>  
+        <p id="previewAdditional"></p></div>
+        </div>
    </div>     
         
-</div>
 
 
-<!-------Main Footer------------>
+
+<!--Main Footer-->
 <footer class="section footer">
     <div class="footer-cont-main">
       <div class="footer-logo">
