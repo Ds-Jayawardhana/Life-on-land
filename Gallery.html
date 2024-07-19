@@ -6,18 +6,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/CSS/Gallery.css">
+<link rel="stylesheet" href="CSS/Gallery.css">
 
 
 <!-------Main Header------------>
 <title>(Gallery) Life On Land(Group I5)</title>
 </head>
-<body>
+<body id="body">
     <section class="hero">
     <div class="container_1">
         
-    <div class="navbar" id="top-nav">
-        <img class="head-img" src="/Img/Common/navimg.png" alt="Header Image">
+    <div class="navbar" id="nav">
+        <img class="head-img" src="Img/Common/navimg.png" alt="Header Image">
         <a href="index.html">Home</a>
         <a href="gallery.html" class="active">Gallery</a>
         <a href="shop.html">Shop</a>
@@ -34,15 +34,16 @@
 <div class="Verticalstrip">
 <span>Themes</span> <br><br>
 
-<div >
-    <button id="lightbutton" onclick="" class="theme-btn" value="light" >Light</button><br><br>
-    <button id="darkbutton" onclick="" class="theme-btn" value="dark">Dark </button><br><br>
-    <button id="defaultbutton"onclick="" class="theme-btn" value="default">Default </button><br><br>
-    <button id="custombutton"onclick="" class="theme-btn" value="custom">Custom </button><br><br>
+<div class="buttonDiv">
+    <button id="lightButton"  class="theme-btn" value="light" >Light</button>
+    <button id="darkButton"  class="theme-btn" value="dark">Dark </button>
+    <button id="defaultButton" class="theme-btn" value="default">Default </button>
+    <button id="customButton" class="theme-btn" value="custom">Custom </button>
 </div>
     <div id ="fontFam">
     <span style="color:#7777;">Font Types</span><br>
-    <select  id="fontselect">
+    <select  id="fontSelect">
+      <option value="Poppins">Poppins</option>
         <option value="Arial">Arial</option>
         <option value="Verdana">Verdana</option>
         <option value="Times New Roman">Times New Roman</option>
@@ -53,52 +54,57 @@
 </div>
 
 <div class = container_2>
-    <h2 class = "title">Gallery</h2>
+    <h2 class = "title" id="title">Gallery</h2>
     <div class="gallery">
         <div class="box"> 
-            <img src="/Img/Gallery/img-1.jpg" alt="">
-        
+            <img src="Img/Gallery/img-01.jpeg" alt="" data-text="This image showcases a dramatic desert landscape. In the foreground, a lush green valley stretches out, filled with vegetation. This verdant area contrasts sharply with the surrounding terrain. The valley is encircled by rugged, reddish-brown mountains with steep, eroded slopes and dramatic cliff faces. In the background, higher mountain peaks rise up, their distant silhouettes appearing in shades of purple and blue. The sky is a clear, pale blue, suggesting a hot, dry climate. This scene captures the stark beauty of desert environments, where pockets of life thrive amidst harsh, arid conditions." class="modalImage">
         </div>
         
        <div class="box">
-        <img src="/Img/Gallery/img-2.jpg" alt="">
+        <img src="Img/Gallery/img-02.jpg" alt="" data-text="This image features a vibrant purple bellflower (likely a species of Campanula) in full bloom. The flower's deep violet petals are star-shaped and fully open, revealing the delicate inner structures." class="modalImage">
     </div> 
         <div class="box">
-            <img src="/Img/Gallery/img-3.jpg" alt="">
+            <img src="Img/Gallery/img-03.jpg" alt="" data-text="This image showcases a beautiful white magnolia flower in full bloom. The flower is large and prominent, with its creamy white petals fully open,revealing a small insect at its center.The magnolia is surrounded by glossy, deep green leaves characteristic of the magnolia tree.The contrast between the pure white flower and the rich green foliage is striking. The image captures the elegant simplicity of the magnolia blossom while also highlighting the intricate details of the plant, including the texture of the petals and leaves. The background suggests a lush garden setting, creating a serene and natural atmosphere." class="modalImage">
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-4.jpg" alt="">
+            <img src="Img/Gallery/img-04.jpg" alt="" data-text="This image depicts a striking portrait of a peacock.The painting captures the bird's head and upper body in vivid detail,showcasing its brilliant blue plumage.The peacock's distinctive crest is prominently displayed. " class="modalImage">
         </div>
        <div class="box">
-        <img src="/Img/Gallery/img-5.jpg" alt="">
+        <img src="Img/Gallery/img-05.jpg" alt="" data-text="This image depicts a lush forest scene. The ground is carpeted with vibrant green moss, forming undulating mounds around the bases of tall trees. The tree trunks are dark and prominent, creating a strong vertical element in the composition. In the background, you can see fallen leaves and a slight slope, adding depth to the forest floor. The overall atmosphere is one of quiet, damp serenity typical of an old-growth forest ecosystem." class="modalImage">
     </div> 
         <div class="box">
-            <img src="/Img/Gallery/img-6.jpg" alt="">
+            <img src="Img/Gallery/img-06.jpg" alt="" data-text="This image shows a vibrant yellow American Goldfinch perched on a thin branch. The bird's body is predominantly bright yellow, with a black cap on its head and black wings. It has a small, conical orange beak typical of finches." class="modalImage">
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-7.jpg" alt="">
+            <img src="Img/Gallery/img-07.jpg" alt="" data-text="This image shows a guinea pig sitting on a green grass lawn. The guinea pig has a predominantly white coat with patches of brown and black fur. It has a distinctive rounded body shape and small ears typical of the species. The animal appears to be alert, with its head slightly raised and eyes visible. The background is blurred but suggests an outdoor setting with green foliage. The contrast between the guinea pig's light fur and the vibrant green grass creates a visually appealing composition." class="modalImage">
         
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-8.jpg" alt="">
+            <img src="Img/Gallery/img-08.jpg" alt="" data-text="This image shows a rural agricultural landscape. A dirt path runs through the center, flanked by tall corn crops on both sides. Young trees are planted in a row alongside the path. The foreground displays dry, rocky soil." class="modalImage">
         
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-9.jpg" alt="">
+            <img src="Img/Gallery/img-09.jpeg" alt="" data-text="This image depicts a stunning natural rock formation known as an arch. The arch is carved out of red sandstone, creating a window-like opening in the massive rock face. The scene is set against a dramatic sky with a mix of dark and light clouds. In the foreground, there's some desert vegetation, including small shrubs and grasses, highlighting the arid environment. The overall composition showcases the raw beauty and grandeur of the desert landscape, likely captured in a place such as the American Southwest." class="modalImage">
         
         </div>
 
        
 </div>
+<div id="ModalContainer" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" src="" id="imageContainer" alt="imageContainer">
+    <div id="caption"></div>
+  </div>
 </div>
 
 <br><br><br><br><br><br>
 
-<!-------Main Footer------------>
-<footer class="section footer">
-    <div class="footer-cont-main">
+
+
+  <footer class="footer">
+    <div class="footer-cont-main"  id="footer">
       <div class="footer-logo">
-        <img src="/Img/Common/sdgs_black.png" alt="Footer Logo" class="footer-img">
+        <img src="Img/Common/sdgs_black.png" alt="Footer Logo" class="footer-img">
         <div class="social-icons">
           <a href="https://www.facebook.com/SustDev" class="social-icon"><i class="fab fa-facebook-f"></i></a>
           <a href="https://twitter.com/SustDev" class="social-icon"><i class="fab fa-twitter"></i></a>
@@ -154,14 +160,17 @@
         </div>
       </div>
     </div>
-    <div class="section footer-2">
-      <div class="copyright">
+    
+      <div class="copyright" id="copyright">
         <div class="copy-cont">
           <p>&copy; Copyright <b>United Nations</b>. All rights Reserved.<br>
           <b>Design By Group I5</b></p>
         </div>
       </div>
-    </div>
   </footer>
+  
+  <script type="module" src="JS/themeChange.js"></script>
+  <script type="module" src="JS/fontChange.js"></script>
+  <script type="module" src="JS/GalleryView.js"></script>
 </body>
 </html>

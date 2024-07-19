@@ -4,9 +4,13 @@
 body {
    margin: 0;
    padding:0;
-    background-color: #ededed;
-    
-    
+   background-color: #ededed;
+   display: flex;
+   flex-direction: column;
+   justify-content: stretch;
+   align-items: stretch; 
+   width: 100%;
+   height: max-content; 
 }
 
 .head-img {
@@ -50,7 +54,6 @@ body {
     padding-right: 30px;
 }
 a.active {
-   
     color: #4ad66d;
     font-weight: 600;
   }
@@ -58,167 +61,142 @@ a.active {
     color:#2dc653 ;
    
  }
- .footer {
-    background: #f9f8f9;
-  }
-  
-  .footer-cont-main {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .footer-logo {
-    grid-column: span 1;
-  }
-  
-  .footer-img {
-    max-width: 160px;
-    height: auto;
-    margin-bottom: 15px;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-  }
-  
-  .social-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-  
-  .social-icon i {
-    color: #000;
-    font-size: 16px;
-    transition: color 0.3s ease;
-  }
-  
-  .social-icon:hover {
-    background-color: #4ad66d;
-  }
-  
-  .social-icon:hover i {
-    color: white;
-  }
-  
-  .footer-cont {
-    grid-column: span 1;
-  }
-  
-  .footer h4 {
-    color: #333;
-    margin-bottom: 15px;
-  }
-  
-  .footer ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .footer li {
-    margin-bottom: 10px;
-  }
-  
-  .footer a {
-    text-decoration: none;
-    color: #777777;
-    font-size: 14px;
-    transition: color 0.3s ease;
-  }
-  
-  .footer a:hover {
-    color: #4ad66d;
-  }
-  
-  .footer-2 {
-    background-color: #f1f0f2;
-    padding: 10px 0;
-  }
-  
-  .copyright {
-    text-align: center;
-  }
-  
-  .copy-cont {
-    font-size: 12px;
-    color: #777;
-  }
-  
-  @media (max-width: 1024px) {
-    .footer-cont-main {
-      grid-template-columns: repeat(3, 1fr);
-    }
+ .ver-icons li i{
+    display: none;
+    
+ }
 
-    
-    .footer-logo {
-      grid-column: span 3;
-      text-align: center;
-    }
-  
-    .social-icons {
-      justify-content: center;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .footer-cont-main {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .footer-logo {
-      grid-column: span 2;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .footer-cont-main {
-      grid-template-columns: 1fr;
-    }
-    
-    .footer-logo {
-      grid-column: span 1;
-    }
+
+
+.tooltip {
+    position: absolute;
+    display: none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-    @media screen and (max-width: 768px) {
-      .navbar {
-          flex-direction: column;
-          align-items: flex-start;
-      }
+
+.tooltip img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.icons{
+    display: flex;
+}
+ .icons a{
+    color:rgb(255, 0, 0);
+ }
+
+ ul{
+    list-style-type: none;
+ }
+
+ ul a{
+    text-decoration: none;
+ }
+ li{
+    color:#777777;
+    font-size: small;
+ }
+
+ /*footer*/
+
+ footer {
+   width: 100%;
+   flex-direction: column;
+   background-color: white;
+
+   left: 0;
+   bottom: 0;
+ }
+
+ footer .top-section {
+  width: auto;
+  display: flex;
+  flex-direction: row;
   
-      .nav-links {
-          display: none;
-          width: 100%;
-          flex-direction: column;
-      }
-  
-      .nav-links.active {
-          display: flex;
-      }
-  
-      .navbar a {
-          width: 100%;
-          padding: 10px 0;
-      }
-  
-      .nav-toggle {
-          display: block;
-          position: absolute;
-          top: 20px;
-          right: 20px;
-      }
-    }
-  
+ }
+
+ .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+ }
+
+.use-links {
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .use-links ul{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+ }
+
+ footer .use-links a{
+    text-decoration: none;
+    color: gray;
+    text-align: start;
+ }
+ 
+
+footer .use-links a:hover {
+    color:#25a244;
+    transition: 100ms ease-in-out all;
+    
+}
+
+ footer .bottom-section {
+    background-color: #f1f0f2;
+    text-align: center;
+    padding-top: 2px;
+    font-size: small;
+    width: auto;
+ }
+
+ .footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer-img {
+    width: 200px;
+    height: auto;
+ }
+
+ .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-items: stretch;
+
+ }
+
+ .social-icons a {
+    text-decoration: none;
+ }
+
+ .social-icon {
+    color: black;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    background-color:rgb(255, 255, 255);
+ }
+
+
+
 h1 {
     text-align: center;
     margin-top: 3%;
@@ -226,18 +204,15 @@ h1 {
 }
 
 .svg-container {
-    display: flex;
-    justify-content: center;
-    padding-left: px;
-    
-}
-
-.svg {
-   
-    max-width: 1250px;
-    margin-top: 1%;
-    
-}
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .svg {
+    width: 100%;
+    height: auto;
+    min-width: 1440px; 
+  }
 
 .circle {
     fill: #2dc653;
@@ -273,5 +248,25 @@ h1 {
     font-weight: bold;
     pointer-events: none;
     fill: white;
+
 }
-    
+
+
+
+  @media screen and (max-width: 1440px) {
+    .svg-container {
+      overflow-x: scroll;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .svg {
+      height: 800px; 
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .svg {
+      height: 1000px; 
+    }
+  }
