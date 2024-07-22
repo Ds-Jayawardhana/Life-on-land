@@ -243,8 +243,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const proceedBtn = document.getElementById('proceed-btn');
     if (proceedBtn) {
         proceedBtn.addEventListener('click', function() {
-            saveCart();
+            if(cart.length===0){
+                alert("Your cart is empty.Please add items to the Cart")
+            }else{
+                saveCart();
             window.location.href = 'checkout.html';
+
+            }
+            
         });
     }
 
