@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
             isvalids=false;
 
         }
-        if(isvalids){
+        if(isvalids){ 
             alert('Thank you for your FeedBack')
         }
     });
