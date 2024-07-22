@@ -135,7 +135,7 @@ function loadCart() {
 }
 
 function displayCart() {
-    localStorage.removeItem('cart');
+  
     const cartBody = document.getElementById('cart-body');
     const cartSubtotal = document.getElementById('cart-subtotal');
     const cartTotal = document.getElementById('cart-total');
